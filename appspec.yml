@@ -4,7 +4,7 @@ files:
    - source: /
      destination: /home/ubuntu/test/
 permissions:
-   - object: /ubuntu/test/
+   - object: /home/ubuntu/test/
      pattern: "**"
      owner: ubuntu
      group: ubuntu
