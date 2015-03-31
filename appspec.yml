@@ -1,0 +1,16 @@
+version: 0.0
+os: linux
+files:
+   - source: /
+     destination: /test/
+permissions:
+   - object: /test/
+     pattern: "**"
+     owner: ubuntu
+     group: ubuntu
+     mode: 755
+     type:
+       - file
+hooks:
+   BeforeInstall:
+   AfterInstall:
